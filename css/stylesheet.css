@@ -21,6 +21,11 @@ p {
   border: 1px solid black;
 }
 
+#p3 {
+  float: right;  
+  background-color: #0000FF; 
+  border: 1px solid black;
+}
 
 /* Simple Responsive Framework. */
 .row {
