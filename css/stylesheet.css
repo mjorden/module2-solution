@@ -9,16 +9,19 @@ h1 {
 #p2 {
   float: right;  
   background-color: #FA8072; 
+  border: 1px solid black;
 }
 
 #p3 {
   float: right;  
   background-color: red; 
+  bored: 1px solid green;
 }
 
 #p4 {
   float: right;  
   background-color: #D2B48C; 
+  border: 1px solid blue;
 }
 
 p {
