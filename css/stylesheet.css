@@ -42,7 +42,7 @@ p {
   width: 95%;
 }
 
-/Desktop/
+/Big Screen/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2 {
     float: left;
@@ -59,7 +59,7 @@ p {
 
 }
 
-/iPad/
+/Medium Screen/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2 {
     float: left;
@@ -77,7 +77,7 @@ p {
   }
 }
 
-/Phone/
+/Small Screen/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2 {
     float: left;
