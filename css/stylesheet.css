@@ -8,8 +8,9 @@ h1 {
 
 h2 {
   position: absolute;
-  left: 100px;
+  left: 500px;
   top: 50px;
+  background-color: white;
 }
 
 p {
