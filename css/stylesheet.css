@@ -8,7 +8,17 @@ h1 {
 
 #p2 {
   float: right;  
-  background-color: white; 
+  background-color: #FA8072; 
+}
+
+#p3 {
+  float: right;  
+  background-color: red; 
+}
+
+#p4 {
+  float: right;  
+  background-color: #D2B48C; 
 }
 
 p {
