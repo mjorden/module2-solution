@@ -42,7 +42,7 @@ p {
   width: 95%;
 }
 
-/Big Screen/
+/********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2 {
     float: left;
