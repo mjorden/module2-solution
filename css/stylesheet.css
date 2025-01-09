@@ -7,8 +7,6 @@ h1 {
 }
 
 p {
-  
-  
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
@@ -43,7 +41,7 @@ p {
   padding-right: 0px;  
 }
 
-/* Simple Responsive Framework. */
+/********** Large devices only **********/
 .row {
   width: 95%;
 }
