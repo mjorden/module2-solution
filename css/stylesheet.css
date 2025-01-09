@@ -6,9 +6,10 @@ h1 {
   margin-bottom: 15px;
 }
 
-h2 {
+p2 {
   float: right;  
   background-color: white;
+  height: 25px;
 }
 
 p {
