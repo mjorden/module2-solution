@@ -1,4 +1,4 @@
-/********** Base styles **********/
+/Starting Styles/
 * {
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  color: black;
 }
 
 #p1 {
@@ -25,6 +25,7 @@ p {
 #p2 {
   float: right;  
   background-color: red; 
+  color: white;
   border: 1px solid black;
   padding-top: 0px;
   margin: 0px;
@@ -40,12 +41,12 @@ p {
   padding-right: 0px;  
 }
 
-/* Simple Responsive Framework. */
+/Media Queries/
 .row {
   width: 95%;
 }
 
-/********** Large devices only **********/
+/Desktop/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2 {
     float: left;
@@ -64,7 +65,7 @@ p {
 
 }
 
-/********** Medium devices only **********/
+/iPad/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2 {
     float: left;
@@ -82,7 +83,7 @@ p {
   }
 }
 
-/********** Small devices only **********/
+/Phone/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2 {
     float: left;
