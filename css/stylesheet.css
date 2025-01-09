@@ -1,4 +1,4 @@
-/********** Initial Styling **********/
+/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
@@ -6,7 +6,9 @@ h1 {
   margin-bottom: 15px;
 }
 
-p {  
+p {
+  
+  
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
@@ -17,7 +19,9 @@ p {
   float: right;  
   background-color: #FA8072; 
   border: 1px solid black;
-
+  padding-top: 0px;
+  margin: 0px;
+  padding-right: 0px;  
 }
 
 #p2 {
@@ -25,7 +29,9 @@ p {
   background-color: red; 
   color: white;
   border: 1px solid black;
-
+  padding-top: 0px;
+  margin: 0px;
+  padding-right: 0px;
 }
 
 #p3 {
@@ -37,7 +43,7 @@ p {
   padding-right: 0px;  
 }
 
-/********** Media Queries **********/
+/* Simple Responsive Framework. */
 .row {
   width: 95%;
 }
@@ -47,7 +53,9 @@ p {
   .col-lg-1, .col-lg-2 {
     float: left;
     border: 2px solid black;
-      }
+    padding-right: 10px;
+    margin: 5px;
+  }
   .col-lg-1 {
     width: 30%;
     background-color: darkgrey;
