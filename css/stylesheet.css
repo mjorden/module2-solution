@@ -17,9 +17,7 @@ p {
   float: right;  
   background-color: #FA8072; 
   border: 1px solid black;
-  padding-top: 0px;
-  margin: 0px;
-  padding-right: 0px;  
+
 }
 
 #p2 {
@@ -27,9 +25,7 @@ p {
   background-color: red; 
   color: white;
   border: 1px solid black;
-  padding-top: 0px;
-  margin: 0px;
-  padding-right: 0px;
+
 }
 
 #p3 {
